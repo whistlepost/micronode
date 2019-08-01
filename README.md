@@ -2,7 +2,7 @@
 
 [iCal4j]: https://ical4j.github.io
 [Bedrock]: https://github.com/micronode/bedrock
-[Whistlepost]: https://whistlepost.org
+[Whistlepost]: http://whistlepost.org
 
 Micronode provides consulting services to assist with the implementation and maintenance of IT solutions.
 
