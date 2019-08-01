@@ -1,13 +1,40 @@
 {
   "list": {
     "scaling-down-legacy-systems": {
+      "title": "Scaling down legacy systems",
       "date": "2019-06-24",
+      "tags": ["cloud", "legacy"],
       "pars": [
         "One of the primary motives for migrating workloads to Cloud architectures is the improved efficiencies gained through architectural patterns such as just-in-time provisioning and serverless architectures. Whilst such approaches may make a positive impact on the system reliability and maintainability, any associated cost benefits will not be realised until the legacy (i.e. pre-migration) system is decommissioned",
         "As such it is just as important to plan how to de-provision the old architecture in a way that won't have any adverse or unexpected side-effects. Often this can be a challenging task - especially when the system has been operational for a number of years and the downstream dependencies are not always well known.",
         "The two most common approaches to decommissioning legacy systems are to "turn it off and see who complains", or just leave it running and worry about decommissioning at a later date. Neither of these approaches are good solutions to the problem, as it means either negatively impacting downstream systems (intentionally!) or the added responsibility of maintaining two systems at once that provide the same functionality.",
         "A third option that is increasingly viable with public Cloud infrastructure is to "lift and shift" the legacy system to a scalable environment (such as public Cloud) and gradually scale down the underlying resources in a controlled way. This type of "soft decommissioning" allows downstream teams enough time to identify the dependencies and migrate to the new system without being immediately impacted. The approach also results in immediate cost benefits through scaling down to less expensive resources, whilst still maintaining a minimum level of service as required.",
         "Decommissioning legacy systems doesn't need to involve a "big bang" shutdown, but rather the same patterns that allow us to scale up our modern architectures may also be used scale down legacy systems."
+      ]
+    },
+    "cloud-the-new-middleware": {
+      "title": "Cloud is the new middleware",
+      "date": "2019-04-23",
+      "tags": ["cloud", "middleware"],
+      "media": "https://pixabay.com/vectors/cloud-cloud-computing-3442528/"
+      "pars": [
+        "Middleware is an aging term that was used to describe the role of integration platforms that provide connectivity between applications and networks. Such platforms grew to encompass a suite of tools that supported industry standards and specifications such as J2EE, SOA, ESB, etc.",
+        "The introduction of Microservices architectures saw a decline in popularity of Middleware software, as they were seen as synonymous with monolithic architectures - the antithesis of Microservices. But the rejection of Middleware platforms presented a challenge to security, audit and other teams that could previously apply governance via these centralised Middleware components.",
+        "At the same time the evolution of the leading public Cloud platforms has seen growth far beyond the Infrastructure-as-a-service (IaaS) label to provide services that are both programmable and auditable, thus assuming the role of Middleware platforms of old. The real shift of mindset from Middleware to Cloud vendors is the realisation that customers don't want to be locked into a proprietary ecosystem, and prefer the freedom that open standards provide.",
+        "Whilst this transition is still underway, all signs suggest that Cloud operators will continue to provide the most open, secure and reliable Middleware platforms on which organisations can rely."
+      ]
+    },
+    "unstoppable-force": {
+      "title": "Unstoppable force meets immovable object",
+      "date": "2019-03-21",
+      "tags": ["devops", "devsecops"],
+      "media": "https://en.wikipedia.org/wiki/Nuclear_fusion",
+      "pars": [
+        "DevOps is a mindset that has changed the way we view, manage and interact with Information Technology teams and systems. At times it can seem like nothing can stop the progression from traditionally segregated development and operations practices to self-determining expert teams.",
+        "In larger organisations however we do see more resistance from well-established operations teams that question the validity of decentralised governance and self-managed production environments. Possibly the most "immovable" concerns come from that of the security teams that are tasked with ensuring protection of organisational and customer data.",
+        "Governance has long been a cornerstone of Information Security, with a default assumption that all systems are insecure unless proven otherwise. This burden of proof is often enforced by conforming to a checklist of security requirements that is both lengthy and, in an attempt to address all concerns for all systems, often irrelevant or a waste of time in some aspects. More importantly however, conforming to security requirements is often an afterthought that is addressed only after the system has been designed.",
+        "To highlight that security principles need to be considered earlier in the design phase a new term of DevSecOps was coined, which signifies a more pro-active approach to security. It is questionable whether a new term is required at all, as a good DevOps practitioner should always have security in mind, however it does signal that DevOps is not just the "wild wild west" that many security experts might assume it to be.",
+        "In fact, when designed for security from the start IT systems will be more secure than any governance processes can dictate, as the security controls will be both relevant and targeted specifically to the design of the system, resulting in less waste and greater efficiency in both design and complexity. Most importantly, designing for security keeps the control in the hands of the expert teams that are most qualified to develop, maintain and support modern IT systems."
       ]
     }
   }
