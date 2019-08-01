@@ -1,0 +1,14 @@
+{
+  "list": {
+    "scaling-down-legacy-systems": {
+      "date": "2019-06-24",
+      "pars": [
+        "One of the primary motives for migrating workloads to Cloud architectures is the improved efficiencies gained through architectural patterns such as just-in-time provisioning and serverless architectures. Whilst such approaches may make a positive impact on the system reliability and maintainability, any associated cost benefits will not be realised until the legacy (i.e. pre-migration) system is decommissioned",
+        "As such it is just as important to plan how to de-provision the old architecture in a way that won't have any adverse or unexpected side-effects. Often this can be a challenging task - especially when the system has been operational for a number of years and the downstream dependencies are not always well known.",
+        "The two most common approaches to decommissioning legacy systems are to "turn it off and see who complains", or just leave it running and worry about decommissioning at a later date. Neither of these approaches are good solutions to the problem, as it means either negatively impacting downstream systems (intentionally!) or the added responsibility of maintaining two systems at once that provide the same functionality.",
+        "A third option that is increasingly viable with public Cloud infrastructure is to "lift and shift" the legacy system to a scalable environment (such as public Cloud) and gradually scale down the underlying resources in a controlled way. This type of "soft decommissioning" allows downstream teams enough time to identify the dependencies and migrate to the new system without being immediately impacted. The approach also results in immediate cost benefits through scaling down to less expensive resources, whilst still maintaining a minimum level of service as required.",
+        "Decommissioning legacy systems doesn't need to involve a "big bang" shutdown, but rather the same patterns that allow us to scale up our modern architectures may also be used scale down legacy systems."
+      ]
+    }
+  }
+}
